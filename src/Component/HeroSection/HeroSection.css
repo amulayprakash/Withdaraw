@@ -1,0 +1,47 @@
+.flex {
+  align-items: center;
+}
+
+.hero-video {
+  transform: scale(2.1);
+  margin: 10px;
+}
+.video-container {
+  overflow: hidden;
+  margin: -20px 0px 0px -20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .video-container {
+    margin: -20px 0px 0px 20px;
+  }
+  .mb-view-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg {
+    margin-bottom: 200px;
+  }
+
+  .btn-mint-mini {
+    margin: auto;
+  }
+  .form-control {
+    align-items: center;
+  }
+  .backgroundMINIMoose {
+    padding: 40px 16px 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .backgroundMINIMoose {
+    padding: 50px 32px 20px;
+  }
+}
+body {
+  overflow-x: hidden;
+}
